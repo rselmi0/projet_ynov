@@ -1,0 +1,82 @@
+# ExpoBase Boilerplate License Agreement
+
+> **TL;DR**  
+> **Personal License**: Build unlimited projects as an individual, but keep the code private and don't share it.
+
+This License Agreement ("Agreement") is entered into between **ExpoBase**, and you, the user ("Licensee"), regarding the use of the **ExpoBase React Native coding boilerplate** (the "Product"). By downloading, accessing, or using the Product, Licensee agrees to be bound by the terms and conditions of this Agreement.
+
+---
+
+## 1. Grant of License
+
+### 1.1 Personal License
+
+Subject to the terms and conditions of this Agreement, ExpoBase grants Licensee a **non-exclusive**, **non-transferable**, and **non-sublicensable** Personal License to use the ExpoBase coding boilerplate for the following purposes:
+
+- Create unlimited personal projects  
+- Build and develop applications for personal or commercial use  
+- Deploy applications built with the boilerplate  
+
+---
+
+## 2. Restrictions
+
+Licensee shall **not**:
+
+- Share, distribute, or give away the ExpoBase boilerplate code to any third party  
+- Post, publish, or make publicly available any part of the boilerplate code (including on GitHub, forums, or any public platform)  
+- Resell or redistribute the ExpoBase boilerplate as a standalone product  
+- Remove, alter, or obscure any copyright, trademark, or other proprietary notices  
+- Use the boilerplate in any way that violates applicable laws or regulations  
+- Sub-license, rent, lease, or transfer the boilerplate or any rights granted under this Agreement  
+
+---
+
+## 3. Code Modifications and Stability
+
+**Important**: Any modifications made to the original boilerplate code will void all stability guarantees.  
+ExpoBase does **not guarantee** the stability, functionality, or compatibility of modified versions of the boilerplate.
+
+---
+
+## 4. Ownership and Intellectual Property
+
+ExpoBase retains **all ownership and intellectual property rights** in and to the ExpoBase boilerplate.  
+This Agreement does **not grant Licensee** any ownership rights in the ExpoBase boilerplate.
+
+---
+
+## 5. Warranty and Disclaimer
+
+> THE EXPOBASE BOILERPLATE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND,  
+> EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES  
+> OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT.  
+> EXPOBASE MAKES NO GUARANTEES REGARDING THE STABILITY OR FUNCTIONALITY OF MODIFIED CODE.
+
+---
+
+## 6. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EXPOBASE SHALL NOT BE LIABLE FOR ANY  
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF  
+OR RELATING TO THE USE OR INABILITY TO USE THE EXPOBASE BOILERPLATE,  
+EVEN IF EXPOBASE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+---
+
+## 7. Termination
+
+This license is **terminated immediately** if you violate any terms of this Agreement,  
+particularly the restrictions on sharing or publicly posting the code.
+
+---
+
+## 8. Entire Agreement
+
+This Agreement constitutes the **entire agreement** between Licensee and ExpoBase concerning the subject matter herein  
+and supersedes all prior or contemporaneous agreements, representations, warranties, and understandings.
+
+---
+
+_Last updated: 2025-07-08_  
+**ExpoBase**

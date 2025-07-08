@@ -1,0 +1,1029 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Annuler",
+    "loading": "Chargement",
+    "error": "Erreur",
+    "success": "Succès",
+    "back": "Retour",
+    "complete": "Terminé",
+    "save": "Enregistrer",
+    "retry": "Réessayer",
+    "today": "Aujourd'hui",
+    "yesterday": "Hier"
+  },
+  "home": {
+    "welcome": {
+      "title": "Bienvenue ! 🎉",
+      "subtitle": "Merci d'avoir acheté Expobase",
+      "docs": "Visiter docs.expobase.dev"
+    },
+    "quickActions": {
+      "title": "Actions Rapides"
+    },
+    "features": {
+      "title": "Ce qui rend Expobase spécial"
+    }
+  },
+  "quickActions": {
+    "profile": {
+      "title": "Profil",
+      "description": "Gérer votre compte"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "description": "Préférences de l'app"
+    },
+    "ai": {
+      "title": "Assistant IA",
+      "description": "Discuter avec l'IA"
+    },
+    "payment": {
+      "title": "Paiement",
+      "description": "Informations de facturation"
+    }
+  },
+  "features": {
+    "fast": {
+      "title": "Ultra Rapide",
+      "description": "Performance optimisée avec sync instantanée"
+    },
+    "secure": {
+      "title": "Sécurisé par Design",
+      "description": "Vos données sont protégées par chiffrement"
+    },
+    "ai": {
+      "title": "Alimenté par l'IA",
+      "description": "Fonctionnalités intelligentes pour booster la productivité"
+    }
+  },
+  "welcome": {
+    "title": "Bienvenue sur Expo Supabase Starter",
+    "subtitle": "Votre productivité, simplifiée",
+    "signUp": "Créer un compte",
+    "signIn": "Se connecter",
+    "noAccount": "Pas encore de compte ?"
+  },
+  "navigation": {
+    "app": {
+      "label": "App",
+      "title": "Application",
+      "subtitle": "Votre application Expo"
+    },
+    "home": {
+      "label": "Accueil",
+      "title": "Tableau de bord",
+      "subtitle": "Vue d'ensemble de votre activité"
+    },
+    "tasks": {
+      "label": "Tâches",
+      "title": "Mes Tâches",
+      "subtitle": "Gérez vos tâches quotidiennes"
+    },
+    "payment": {
+      "label": "Paiement",
+      "title": "Options de paiement",
+      "subtitle": "Méthodes de paiement sécurisées"
+    },
+    "profile": {
+      "label": "Profil",
+      "title": "Mon Profil",
+      "subtitle": "Informations personnelles"
+    },
+    "settings": {
+      "label": "Paramètres",
+      "title": "Paramètres",
+      "subtitle": "Configuration de l'application"
+    },
+    "offline": {
+      "label": "Hors ligne",
+      "title": "Mode hors ligne",
+      "subtitle": "Travaillez sans connexion"
+    },
+    "ai": {
+      "label": "Assistant IA",
+      "title": "Assistant IA",
+      "subtitle": "Intelligence artificielle intégrée"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "title": "Notifications",
+      "subtitle": "Gérez vos alertes",
+      "description": "Gérez vos alertes et notifications push"
+    }
+  },
+  "payment": {
+    "title": "Options de paiement",
+    "subtitle": "Choisissez votre méthode préférée",
+    "buttons": {
+      "stripeRedirect": {
+        "title": "Stripe Redirect",
+        "subtitle": "Page de paiement externe sécurisée"
+      },
+      "stripeInApp": {
+        "title": "Stripe In-App",
+        "subtitle": "Paiement intégré dans l'application"
+      },
+      "revenueCat": {
+        "title": "RevenueCat Paywall",
+        "subtitle": "Abonnements et achats in-app"
+      }
+    },
+    "comparison": {
+      "title": "Comparaison",
+      "stripe": "Stripe",
+      "revenueCat": "RevenueCat",
+      "easeOfUse": "Facilité d'usage",
+      "transactionFees": "Frais de transaction",
+      "platform": "Plateforme",
+      "values": {
+        "average": "Moyenne",
+        "easy": "Facile",
+        "webMobile": "Web+Mobile",
+        "mobileOnly": "Mobile only"
+      }
+    },
+    "alerts": {
+      "notAuthenticated": "Non authentifié",
+      "stripeRedirectError": "Échec de création de la session Stripe",
+      "stripeMissingUrl": "URL Stripe manquante",
+      "paymentIntentError": "Échec de création du PaymentIntent",
+      "paymentError": "Une erreur est survenue lors du paiement",
+      "paymentSuccess": "Paiement effectué avec succès!",
+      "generalError": "Une erreur est survenue"
+    }
+  },
+  "premium": {
+    "restore": {
+      "button": "Restaurer les achats",
+      "restoring": "Restauration en cours...",
+      "success": "Achats restaurés avec succès!",
+      "error": "Une erreur est survenue lors de la restauration des achats"
+    },
+    "title": "Premium",
+    "subtitle": "Fonctionnalités exclusives",
+    "verifying": "Vérification de l'accès...",
+    "access": {
+      "authRequired": {
+        "title": "Connexion requise",
+        "message": "Veuillez vous connecter pour accéder aux fonctionnalités Premium."
+      },
+      "premiumRequired": {
+        "title": "Accès Premium requis",
+        "message": "Cette section est réservée aux membres Premium. Découvrez nos offres !"
+      },
+      "viewOffers": "Voir les offres"
+    },
+    "error": {
+      "title": "Erreur de vérification",
+      "message": "Impossible de vérifier votre statut Premium. Veuillez réessayer."
+    },
+    "status": {
+      "active": "Statut Premium Actif",
+      "renewal": "Renouvellement",
+      "unlimited": "Illimité"
+    },
+    "features": {
+      "title": "Fonctionnalités Premium",
+      "advanced": {
+        "title": "Fonctionnalités Avancées",
+        "description": "Accès à toutes les fonctionnalités exclusives et outils pro"
+      },
+      "sync": {
+        "title": "Synchronisation Cloud",
+        "description": "Sauvegarde automatique et sync temps réel sur tous vos appareils"
+      },
+      "security": {
+        "title": "Sécurité Renforcée",
+        "description": "Chiffrement avancé et protection des données"
+      },
+      "team": {
+        "title": "Collaboration Équipe",
+        "description": "Partagez et collaborez avec votre équipe en temps réel"
+      },
+      "analytics": {
+        "title": "Analytics Avancés",
+        "description": "Statistiques détaillées et rapports personnalisés"
+      }
+    },
+    "support": {
+      "title": "Support Premium",
+      "contact": "Support Prioritaire 24/7",
+      "description": "Une question ? Notre équipe est là pour vous aider"
+    },
+    "management": {
+      "title": "Gestion",
+      "billing": "Facturation et paiements",
+      "subscription": {
+        "title": "Gérer l'abonnement",
+        "message": "Pour modifier ou annuler votre abonnement, rendez-vous dans les paramètres de votre compte.",
+        "settings": "Ouvrir les paramètres"
+      }
+    },
+    "restore": {
+      "button": "Restaurer les achats",
+      "restoring": "Restauration...",
+      "description": "Restaurer vos abonnements précédents",
+      "alerts": {
+        "success": {
+          "title": "✅ Achats restaurés",
+          "message": "Vos achats ont été restaurés avec succès ! Votre statut premium a été mis à jour."
+        },
+        "noItems": {
+          "title": "⚠️ Aucun achat trouvé",
+          "message": "Aucun achat précédent n'a été trouvé pour ce compte Apple/Google."
+        },
+        "error": {
+          "title": "❌ Erreur",
+          "message": "Impossible de restaurer vos achats. Vérifiez votre connexion et réessayez."
+        }
+      }
+    }
+  },
+  "legal": {
+    "lastUpdated": "Dernière mise à jour",
+    "contact": {
+      "title": "Contact",
+      "content": "Pour toute question concernant ces conditions, veuillez nous contacter via la section \"Signaler un problème\" dans les paramètres de l'application."
+    },
+    "termsOfService": {
+      "title": "Conditions Générales",
+      "subtitle": "Conditions d'utilisation",
+      "header": "Conditions Générales d'Utilisation",
+      "sections": {
+        "acceptance": {
+          "title": "Acceptation des Conditions",
+          "content": "En utilisant cette application, vous acceptez d'être lié par ces conditions générales d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application."
+        },
+        "serviceDescription": {
+          "title": "Description du Service",
+          "content": "Notre application fournit des services de gestion de tâches, de stockage de données et d'accès premium. Nous nous réservons le droit de modifier, suspendre ou arrêter tout ou partie du service à tout moment."
+        },
+        "userAccounts": {
+          "title": "Comptes Utilisateurs",
+          "content": "Vous êtes responsable de maintenir la confidentialité de votre compte et de votre mot de passe. Vous acceptez de nous notifier immédiatement de toute utilisation non autorisée de votre compte."
+        },
+        "premiumSubscriptions": {
+          "title": "Abonnements Premium",
+          "content": "Les abonnements premium sont facturés selon les tarifs en vigueur. Les paiements sont traités via les stores d'applications (App Store, Google Play). Les remboursements sont soumis aux politiques des stores."
+        },
+        "acceptableUse": {
+          "title": "Utilisation Acceptable",
+          "content": "Vous vous engagez à utiliser l'application de manière légale et respectueuse. Toute utilisation abusive, tentative de piratage ou comportement nuisant à d'autres utilisateurs est strictement interdite."
+        },
+        "intellectualProperty": {
+          "title": "Propriété Intellectuelle",
+          "content": "L'application et son contenu sont protégés par les lois sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer ou créer des œuvres dérivées sans autorisation écrite."
+        },
+        "limitationOfLiability": {
+          "title": "Limitation de Responsabilité",
+          "content": "L'application est fournie \"en l'état\". Nous ne garantissons pas que le service sera ininterrompu ou exempt d'erreurs. Notre responsabilité est limitée dans toute la mesure permise par la loi."
+        },
+        "modifications": {
+          "title": "Modifications des Conditions",
+          "content": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications prennent effet immédiatement après publication. Votre utilisation continue constitue une acceptation des nouvelles conditions."
+        }
+      }
+    },
+    "privacyPolicy": {
+      "title": "Politique de Confidentialité",
+      "subtitle": "Protection de vos données",
+      "header": "Politique de Confidentialité",
+      "introduction": "Nous nous engageons à protéger et respecter votre vie privée. Cette politique explique comment nous collectons, utilisons et protégeons vos informations personnelles.",
+      "contact": "Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits, utilisez la fonction \"Signaler un problème\" dans les paramètres de l'application.",
+      "sections": {
+        "dataCollection": {
+          "title": "Informations que nous collectons",
+          "accountInfo": "Informations de compte",
+          "accountInfoDetails": "Email, nom, préférences utilisateur",
+          "usageData": "Données d'utilisation",
+          "usageDataDetails": "Interactions avec l'app, préférences, paramètres",
+          "technicalData": "Données techniques",
+          "technicalDataDetails": "Type d'appareil, système d'exploitation, version de l'app"
+        },
+        "dataUsage": {
+          "title": "Comment nous utilisons vos informations",
+          "improve": "Fournir et améliorer nos services",
+          "personalize": "Personnaliser votre expérience utilisateur",
+          "payments": "Traiter les paiements et gérer les abonnements",
+          "support": "Vous contacter pour le support client",
+          "security": "Assurer la sécurité et prévenir les fraudes"
+        },
+        "dataSharing": {
+          "title": "Partage de vos informations",
+          "intro": "Nous ne vendons jamais vos données personnelles. Nous pouvons partager vos informations uniquement dans les cas suivants :",
+          "consent": "Avec votre consentement explicite",
+          "serviceProviders": "Avec nos prestataires de services (hébergement, paiement)",
+          "legal": "Si requis par la loi ou pour protéger nos droits"
+        },
+        "dataSecurity": {
+          "title": "Stockage et sécurité des données",
+          "storage": "Stockage",
+          "storageDetails": "Vos données sont stockées sur des serveurs sécurisés (Supabase)",
+          "encryption": "Chiffrement",
+          "encryptionDetails": "Toutes les données sont chiffrées en transit et au repos",
+          "access": "Accès",
+          "accessDetails": "Accès limité aux employés autorisés uniquement",
+          "location": "Localisation",
+          "locationDetails": "Données stockées dans l'Union Européenne (RGPD)"
+        },
+        "gdprRights": {
+          "title": "Vos droits RGPD",
+          "intro": "Conformément au RGPD, vous avez le droit de :",
+          "access": "Accès",
+          "accessDetails": "Obtenir une copie de vos données",
+          "rectification": "Rectification",
+          "rectificationDetails": "Corriger des données inexactes",
+          "deletion": "Suppression",
+          "deletionDetails": "Demander l'effacement de vos données",
+          "portability": "Portabilité",
+          "portabilityDetails": "Recevoir vos données dans un format lisible",
+          "objection": "Opposition",
+          "objectionDetails": "Vous opposer au traitement de vos données"
+        },
+        "cookies": {
+          "title": "Cookies et technologies similaires",
+          "intro": "Notre application utilise des technologies de stockage local pour :",
+          "preferences": "Mémoriser vos préférences (thème, langue)",
+          "session": "Maintenir votre session utilisateur",
+          "performance": "Améliorer les performances de l'application"
+        },
+        "dataRetention": {
+          "title": "Conservation des données",
+          "content": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour fournir nos services ou selon les exigences légales. Vous pouvez demander la suppression de votre compte à tout moment."
+        },
+        "policyUpdates": {
+          "title": "Modifications de cette politique",
+          "content": "Nous pouvons mettre à jour cette politique de confidentialité occasionnellement. Nous vous notifierons des changements importants via l'application ou par email."
+        }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée vers un autre emplacement.",
+    "actions": {
+      "goHome": "Aller à l'accueil",
+      "goBack": "Retour"
+    },
+    "help": {
+      "message": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter notre équipe de support pour obtenir de l'aide."
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Se connecter",
+      "subtitle": "Connectez-vous à votre compte",
+      "email": "Email",
+      "password": "Mot de passe",
+      "emailPlaceholder": "votre@email.com",
+      "passwordPlaceholder": "Mot de passe",
+      "submitButton": "Se connecter",
+      "errorTitle": "Erreur",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "createAccount": "Créer un compte"
+    },
+    "signUp": {
+      "title": "Créer un compte",
+      "subtitle": "Rejoignez-nous en quelques clics",
+      "email": "Email",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "emailPlaceholder": "votre@email.com",
+      "passwordPlaceholder": "Mot de passe sécurisé",
+      "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+      "submitButton": "Créer mon compte",
+      "errorTitle": "Erreur",
+      "hasAccount": "Déjà un compte ?",
+      "signIn": "Se connecter"
+    },
+    "resetPassword": {
+      "title": "Mot de passe oublié ?",
+      "subtitle": "Pas de souci ! Saisissez votre adresse email et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+      "emailPlaceholder": "Adresse email",
+      "sendLink": "Envoyer le lien",
+      "sending": "Envoi en cours...",
+      "emailSent": "Email envoyé !",
+      "successMessage": "Un email de réinitialisation a été envoyé à {{email}}",
+      "rememberPassword": "Vous vous souvenez de votre mot de passe ?",
+      "signIn": "Se connecter",
+      "emailRequired": "Veuillez saisir votre adresse email",
+      "emailInvalid": "Veuillez saisir une adresse email valide",
+      "emailSentTitle": "Email envoyé !",
+      "emailSentMessage": "Vérifiez votre boîte mail pour réinitialiser votre mot de passe.",
+      "generalError": "Une erreur est survenue lors de l'envoi de l'email"
+    },
+    "google": {
+      "signIn": "Continuer avec Google",
+      "signUp": "S'inscrire avec Google",
+      "error": "Erreur lors de la connexion avec Google"
+    },
+    "apple": {
+      "signIn": "Continuer avec Apple",
+      "signUp": "S'inscrire avec Apple",
+      "error": "Erreur lors de la connexion avec Apple"
+    },
+    "validation": {
+      "emailRequired": "Veuillez entrer une adresse email valide.",
+      "passwordMinLength": "Veuillez entrer au moins 8 caractères.",
+      "passwordMaxLength": "Veuillez entrer moins de 64 caractères.",
+      "passwordLowercase": "Votre mot de passe doit contenir au moins une lettre minuscule.",
+      "passwordUppercase": "Votre mot de passe doit contenir au moins une lettre majuscule.",
+      "passwordNumber": "Votre mot de passe doit contenir au moins un chiffre.",
+      "passwordSpecialChar": "Votre mot de passe doit contenir au moins un caractère spécial.",
+      "passwordsDoNotMatch": "Vos mots de passe ne correspondent pas.",
+      "signInError": "Une erreur s'est produite lors de la connexion",
+      "signUpError": "Une erreur s'est produite lors de l'inscription"
+    }
+  },
+  "profile": {
+    "title": "Profil",
+    "edit": {
+      "title": "Modifier le profil",
+      "firstName": {
+        "label": "Prénom",
+        "placeholder": "Entrez votre prénom",
+        "title": "Modifier le prénom"
+      },
+      "lastName": {
+        "label": "Nom",
+        "placeholder": "Entrez votre nom",
+        "title": "Modifier le nom"
+      },
+      "avatar": {
+        "label": "URL de l'avatar",
+        "placeholder": "https://example.com/avatar.jpg",
+        "title": "Modifier l'URL de l'avatar",
+        "changePhoto": "Changer la photo",
+        "deletePhoto": "Supprimer la photo",
+        "preview": "Aperçu de l'image :"
+      }
+    },
+    "info": {
+      "email": "Email",
+      "memberSince": "Membre depuis",
+      "avatarUrl": "URL Avatar"
+    },
+    "status": {
+      "title": "Statut",
+      "paid": "Utilisateur payant",
+      "premium": "Utilisateur premium",
+      "complete": "Profil complet",
+      "incomplete": "Profil incomplet"
+    },
+    "actions": {
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "update": "Mettre à jour le profil",
+      "signOut": "Se déconnecter"
+    },
+    "alerts": {
+      "updateSuccess": "Profil mis à jour avec succès",
+      "updateError": "Impossible de sauvegarder. Veuillez réessayer.",
+      "avatarError": "Impossible de sauvegarder l'avatar. Veuillez réessayer.",
+      "imageSelected": "Image sélectionnée avec succès!",
+      "imageUploaded": "Image uploadée avec succès!",
+      "imageDeleted": "Image supprimée avec succès!",
+      "uploadError": "Erreur lors de l'upload de l'image",
+      "deleteError": "Erreur lors de la suppression de l'image",
+      "imageSelectionError": "Erreur lors de la sélection de l'image",
+      "permissionDenied": "Permission refusée",
+      "permissionError": "Erreur lors de la vérification des permissions",
+      "cameraPermissionMessage": "L'accès à la caméra est nécessaire pour prendre une photo",
+      "galleryPermissionMessage": "L'accès à la galerie est nécessaire pour sélectionner une image",
+      "deleteImageTitle": "Supprimer l'image",
+      "deleteImageMessage": "Êtes-vous sûr de vouloir supprimer cette image de profil ?",
+      "deleteConfirm": "Supprimer",
+      "completeProfile": "⚠️ Veuillez compléter votre profil"
+    },
+    "toasts": {
+      "updateSuccess": "✅ Profil mis à jour avec succès",
+      "updateError": "❌ Impossible de sauvegarder. Veuillez réessayer.",
+      "avatarSuccess": "✅ Photo de profil mise à jour",
+      "avatarError": "❌ Impossible de sauvegarder l'avatar"
+    },
+    "placeholders": {
+      "addFirstName": "Ajouter votre prénom",
+      "addLastName": "Ajouter votre nom",
+      "addAvatarUrl": "Ajouter une URL d'avatar"
+    },
+    "imageSource": {
+      "title": "Changer la photo de profil",
+      "gallery": "Choisir dans la galerie",
+      "camera": "Prendre une photo",
+      "delete": "Supprimer l'image",
+      "cancel": "Annuler"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "profile": {
+      "title": "Profil",
+      "email": "Email",
+      "fullName": "Nom complet",
+      "status": "Statut"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "payment": "Paiement",
+      "premium": "Premium",
+      "paid": "Payé",
+      "free": "Gratuit",
+      "standard": "Standard",
+      "premiumStandard": "Premium",
+      "premiumRevenueCat": "Premium (RevenueCat)"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "Gérez vos alertes et notifications push",
+      "footer": "Gérez vos préférences de notifications",
+      "description": "Les notifications vous permettent de recevoir des mises à jour importantes, des rappels et des alertes de sécurité.",
+      "configuration": "Configuration...",
+      "enable": "Activer les notifications",
+      "testing": "Envoi...",
+      "testNotifications": "Tester les notifications",
+      "token": {
+        "label": "Token Push"
+      },
+      "push": "Notifications Push",
+      "pushEnabled": "Recevoir des notifications push sur votre appareil",
+      "pushDisabled": "Les notifications push sont désactivées",
+      "email": "Notifications par Email",
+      "emailEnabled": "Recevoir des notifications par email",
+      "emailDisabled": "Les notifications par email sont désactivées",
+      "marketing": "Communications Marketing",
+      "marketingEnabled": "Recevoir du contenu promotionnel et des mises à jour",
+      "marketingDisabled": "Les communications marketing sont désactivées",
+      "test": {
+        "local": {
+          "title": "🎉 Test Local",
+          "body": "Votre notification locale fonctionne parfaitement !"
+        },
+        "remote": {
+          "title": "🚀 Test Push",
+          "body": "Votre notification push fonctionne parfaitement !"
+        },
+        "description": "Envoyer une notification test pour vérifier les paramètres"
+      },
+      "permission": {
+        "status": "Statut des permissions",
+        "request": "Demander les permissions",
+        "granted": "Autorisées",
+        "denied": "Refusées",
+        "blocked": "Bloquées"
+      },
+      "actions": {
+        "requestPermission": "Autoriser",
+        "testLocal": "Test Local",
+        "testRemote": "Test Push",
+        "refresh": "Actualiser",
+        "settings": "Paramètres"
+      },
+      "status": {
+        "checking": "Vérification...",
+        "enabled": "Activées",
+        "disabled": "Désactivées",
+        "connected": "Connecté",
+        "disconnected": "Déconnecté"
+      },
+      "device": {
+        "real": "Appareil physique - Toutes les fonctionnalités disponibles",
+        "simulator": "Simulateur - Notifications locales uniquement",
+        "simulatorNote": "Pour les notifications push, utilisez un appareil physique"
+      },
+      "messages": {
+        "localTest": "Notification instantanée sur cet appareil",
+        "remoteTest": "Notification via serveur distant",
+        "requiresDevice": "Nécessite un appareil physique",
+        "tokenSaved": "Token sauvegardé automatiquement dans votre profil",
+        "openSettings": "Ouvre les paramètres système",
+        "pushFromServer": "Notification push envoyée depuis le serveur",
+        "sessionNotFound": "Session utilisateur non trouvée",
+        "pushRequiresDevice": "Les notifications push nécessitent un appareil physique. Utilisez le test local sur simulateur.",
+        "settingsError": "Impossible d'ouvrir automatiquement les paramètres système. Allez manuellement dans Paramètres > Notifications."
+      },
+      "testButtons": {
+        "title": "Tests de Notifications",
+        "description": "Testez différents types de notifications",
+        "basicTest": "Test Simple",
+        "basicTestDescription": "Notification basique de test",
+        "soundTest": "Test avec Son",
+        "soundTestDescription": "Notification avec son et vibration",
+        "actionTest": "Test avec Actions",
+        "actionTestDescription": "Notification avec boutons d'action",
+        "reminderTest": "Test de Rappel",
+        "reminderTestDescription": "Simulation d'un rappel de tâche"
+      },
+      "alerts": {
+        "success": {
+          "title": "Succès !",
+          "message": "Les notifications ont été activées avec succès."
+        },
+        "error": {
+          "title": "Erreur",
+          "message": "Une erreur s'est produite lors de la configuration des notifications."
+        },
+        "permissionDenied": "Permission refusée",
+        "permissionDeniedMessage": "Veuillez d'abord accorder les permissions de notification",
+        "testSent": {
+          "title": "Test envoyé !",
+          "message": "Vérifiez votre centre de notifications."
+        },
+        "blocked": {
+          "title": "Permissions bloquées",
+          "message": "Les notifications sont bloquées. Vous pouvez les activer manuellement dans les paramètres de votre appareil.",
+          "cancel": "Annuler",
+          "openSettings": "Ouvrir les paramètres"
+        },
+        "denied": {
+          "title": "Permission refusée",
+          "message": "Les notifications n'ont pas pu être activées. Réessayez plus tard."
+        },
+        "tokenMissing": {
+          "title": "Token manquant",
+          "message": "Le token de notification n'est pas encore configuré."
+        },
+        "testError": {
+          "title": "Erreur",
+          "message": "Impossible d'envoyer la notification de test."
+        }
+      },
+      "debug": {
+        "title": "Infos Debug",
+        "device": "Appareil",
+        "physical": "Physique",
+        "simulator": "Simulateur",
+        "permissions": "Permissions",
+        "granted": "Accordées",
+        "notGranted": "Non accordées",
+        "token": "Token"
+      }
+    },
+    "preferences": {
+      "title": "Préférences",
+      "footer": "Personnalisez votre expérience utilisateur",
+      "language": "Langue",
+      "languageEnglish": "English",
+      "languageFrench": "Français",
+      "languagePortuguese": "Português",
+      "languageSpanish": "Español",
+      "selectLanguage": "Sélectionner la langue",
+      "theme": "Thème",
+      "themeLight": "Clair",
+      "themeDark": "Sombre",
+      "themeSystem": "Système",
+      "selectTheme": "Sélectionner le thème",
+      "darkMode": "Mode Sombre",
+      "darkModeOn": "Le mode sombre est activé",
+      "darkModeOff": "Le mode clair est activé"
+    },
+    "memberSince": "Membre depuis",
+    "signOut": "Se déconnecter"
+  },
+  "ai": {
+    "title": "Assistant IA",
+    "placeholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "thinking": "L'IA réfléchit...",
+    "welcome": {
+      "title": "Assistant IA",
+      "subtitle": "Commencez une conversation avec notre assistant intelligent et obtenez de l'aide pour tout ce dont vous avez besoin."
+    },
+    "error": "Désolé, j'ai rencontré une erreur. Veuillez réessayer.",
+    "clear": "Effacer le Chat",
+    "newChat": "Nouveau Chat",
+    "emptyState": "Demandez à notre IA",
+    "emptySubtitle": "Commencez une conversation avec notre assistant intelligent",
+    "prompts": {
+      "creative": "Écris une histoire créative",
+      "help": "Comment peux-tu m'aider ?",
+      "explain": "Explique-moi quelque chose",
+      "ideas": "Donne-moi des idées"
+    }
+  },
+  "tasks": {
+    "title": "Mes Tâches",
+    "create": {
+      "title": "Nouvelle Tâche",
+      "placeholder": "Ajouter une nouvelle tâche...",
+      "titleInput": "Titre de la tâche",
+      "titlePlaceholder": "Entrez le titre de la tâche...",
+      "descriptionInput": "Description",
+      "descriptionPlaceholder": "Ajouter une description (optionnel)",
+      "createButton": "Créer la Tâche",
+      "createButtonDisabled": "Entrez le titre",
+      "error": "Impossible de créer la tâche"
+    },
+    "edit": {
+      "title": "Modifier la tâche",
+      "titleLabel": "Titre de la tâche",
+      "titlePlaceholder": "Titre de la tâche...",
+      "descriptionLabel": "Description (optionnelle)",
+      "descriptionPlaceholder": "Ajoutez une description..."
+    },
+    "update": {
+      "error": "Impossible de mettre à jour la tâche"
+    },
+    "toggle": {
+      "error": "Impossible de modifier la tâche"
+    },
+    "delete": {
+      "error": "Impossible de supprimer la tâche"
+    },
+    "list": {
+      "empty": "Aucune tâche pour le moment",
+      "emptySubtitle": "Créez votre première tâche pour commencer",
+      "emptyHint": "Tapez dans le champ ci-dessus pour ajouter votre première tâche",
+      "pending": "en attente",
+      "completed": "terminées",
+      "allCompleted": "Toutes les tâches terminées ! 🎉",
+      "pendingSection": "À faire",
+      "completedSection": "Terminées"
+    },
+    "status": {
+      "offline": "Hors ligne",
+      "pending": "En attente de sync",
+      "syncing": "Synchronisation...",
+      "local": "Local",
+      "synced": "Synchronisé"
+    },
+    "actions": {
+      "complete": "Marquer comme terminé",
+      "uncomplete": "Marquer comme non terminé",
+      "delete": "Supprimer la tâche",
+      "sync": "Synchroniser maintenant"
+    },
+    "alerts": {
+      "deleteTitle": "Supprimer la Tâche",
+      "deleteMessage": "Êtes-vous sûr de vouloir supprimer cette tâche ?",
+      "deleteConfirm": "Supprimer",
+      "deleteCancel": "Annuler",
+      "createError": "Impossible de créer la tâche",
+      "updateError": "Impossible de modifier la tâche",
+      "deleteError": "Impossible de supprimer la tâche",
+      "syncSuccess": "Synchronisation terminée",
+      "syncError": "Échec de la synchronisation"
+    },
+    "toasts": {
+      "created": "✅ Tâche ajoutée avec succès",
+      "updated": "✅ Tâche mise à jour",
+      "completed": "✅ Tâche marquée comme terminée",
+      "uncompleted": "🔄 Tâche marquée comme non terminée",
+      "deleted": "🗑️ Tâche supprimée",
+      "createError": "❌ Échec de la création",
+      "updateError": "❌ Échec de la mise à jour",
+      "deleteError": "❌ Échec de la suppression",
+      "toggleError": "❌ Échec de la modification"
+    }
+  },
+  "onboarding": {
+    "progress": {
+      "step": "Étape {{current}} sur {{total}}"
+    },
+    "buttons": {
+      "continue": "Continuer",
+      "back": "Retour",
+      "skip": "Passer pour l'instant",
+      "complete": "Terminer la configuration"
+    },
+    "step1": {
+      "title": "Bienvenue ! Commençons",
+      "subtitle": "Dites-nous votre nom pour personnaliser votre expérience.",
+      "firstName": "Prénom *",
+      "lastName": "Nom *",
+      "firstNamePlaceholder": "Entrez votre prénom",
+      "lastNamePlaceholder": "Entrez votre nom",
+      "requiredFields": "Champs obligatoires",
+      "enterBothNames": "Veuillez entrer votre prénom et votre nom."
+    },
+    "step2": {
+      "title": "Des fonctionnalités puissantes à portée de main",
+      "subtitle": "Tout ce dont vous avez besoin pour rester productif et organisé.",
+      "features": {
+        "fast": {
+          "title": "Ultra Rapide",
+          "description": "Performance optimisée avec synchronisation instantanée sur tous vos appareils."
+        },
+        "secure": {
+          "title": "Sécurisé par Design",
+          "description": "Chiffrement de bout en bout pour garder vos données privées et protégées."
+        },
+        "offline": {
+          "title": "Mode Hors Ligne",
+          "description": "Travaillez partout, n'importe quand. Synchronisation automatique quand vous êtes de retour en ligne."
+        }
+      }
+    },
+    "step3": {
+      "title": "Choisissez vos préférences de notification",
+      "subtitle": "Nous vous aiderons à rester au top de vos tâches et échéances.",
+      "completing": "Configuration de votre compte...",
+      "enableNotifications": "Activer les Notifications",
+      "notificationDescription": "Restez informé des mises à jour importantes, rappels de tâches et alertes de sécurité.",
+      "benefits": "Avantages",
+      "permissionGranted": "Les notifications sont activées et prêtes à fonctionner !",
+      "permissionWillRequest": "Nous demanderons l'autorisation quand vous terminerez la configuration."
+    },
+    "notifications": {
+      "title": "Paramètres de notification",
+      "description": "Choisissez comment vous souhaitez être notifié des mises à jour importantes et rappels.",
+      "pushTitle": "Notifications Push",
+      "pushDescription": "Recevez des mises à jour en temps réel sur votre compte et vos activités",
+      "benefitsTitle": "Vous serez notifié pour :",
+      "benefits": {
+        "updates": "Mises à jour importantes et rappels",
+        "sync": "Notifications de synchronisation",
+        "security": "Alertes de sécurité et conseils"
+      },
+      "privacyNote": "Nous respectons votre vie privée. Pas de spam, seulement des notifications utiles.",
+      "status": {
+        "label": "Statut",
+        "checking": "Vérification...",
+        "granted": "Autorisées",
+        "blocked": "Bloquées (paramètres système)",
+        "notGranted": "Non autorisées"
+      }
+    },
+    "errors": {
+      "noUserSession": "Aucune session utilisateur trouvée",
+      "permissionDenied": "Permission refusée",
+      "permissionMessage": "Les notifications n'ont pas pu être activées. Vous pouvez les activer plus tard dans les paramètres.",
+      "configError": "Erreur",
+      "configMessage": "Impossible de configurer les notifications. Vous pouvez réessayer plus tard dans les paramètres.",
+      "completionError": "Échec de la finalisation de l'onboarding. Veuillez réessayer."
+    }
+  },
+  "offline": {
+    "title": "Mode Hors Ligne",
+    "status": {
+      "title": "📡 Statut",
+      "network": "Réseau",
+      "online": "En ligne",
+      "offline": "Hors ligne"
+    },
+    "tasks": {
+      "title": "📝 Tâches",
+      "total": "Total",
+      "completed": "Complétées",
+      "toSync": "À synchroniser"
+    },
+    "storage": {
+      "title": "💾 Stockage MMKV",
+      "keys": "clés"
+    },
+    "actions": {
+      "testMmkv": "Test MMKV",
+      "refresh": "Actualiser",
+      "clearAll": "🗑️ Tout vider"
+    },
+    "alerts": {
+      "clearAll": {
+        "title": "Vider tout le stockage",
+        "message": "Cette action va supprimer toutes les données stockées localement. Êtes-vous sûr ?",
+        "cancel": "Annuler",
+        "confirm": "Tout supprimer"
+      },
+      "clearSuccess": {
+        "title": "Succès",
+        "message": "Tout le stockage a été vidé"
+      },
+      "testMmkv": {
+        "title": "Test MMKV",
+        "message": "Sauvé: {{saved}}\nRécupéré: {{retrieved}}"
+      },
+      "testError": {
+        "title": "Erreur",
+        "message": "{{error}}"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Gérez vos alertes et notifications push",
+    "footer": "Gérez vos préférences de notifications",
+    "description": "Les notifications vous permettent de recevoir des mises à jour importantes, des rappels et des alertes de sécurité.",
+    "configuration": "Configuration...",
+    "enable": "Activer les notifications",
+    "testing": "Envoi...",
+    "testNotifications": "Tester les notifications",
+    "token": {
+      "label": "Token Push"
+    },
+    "push": "Notifications Push",
+    "pushEnabled": "Recevoir des notifications push sur votre appareil",
+    "pushDisabled": "Les notifications push sont désactivées",
+    "email": "Notifications par Email",
+    "emailEnabled": "Recevoir des notifications par email",
+    "emailDisabled": "Les notifications par email sont désactivées",
+    "marketing": "Communications Marketing",
+    "marketingEnabled": "Recevoir du contenu promotionnel et des mises à jour",
+    "marketingDisabled": "Les communications marketing sont désactivées",
+    "test": {
+      "local": {
+        "title": "🎉 Test Local",
+        "body": "Votre notification locale fonctionne parfaitement !"
+      },
+      "remote": {
+        "title": "🚀 Test Push",
+        "body": "Votre notification push fonctionne parfaitement !"
+      },
+      "description": "Envoyer une notification test pour vérifier les paramètres"
+    },
+    "permission": {
+      "status": "Statut des permissions",
+      "request": "Demander les permissions",
+      "granted": "Autorisées",
+      "denied": "Refusées",
+      "blocked": "Bloquées"
+    },
+    "actions": {
+      "requestPermission": "Autoriser",
+      "testLocal": "Test Local",
+      "testRemote": "Test Push",
+      "testEmail": "Test Email",
+      "refresh": "Actualiser",
+      "settings": "Paramètres"
+    },
+    "status": {
+      "checking": "Vérification...",
+      "enabled": "Activées",
+      "disabled": "Désactivées",
+      "connected": "Connecté",
+      "disconnected": "Déconnecté"
+    },
+    "device": {
+      "real": "Appareil physique - Toutes les fonctionnalités disponibles",
+      "simulator": "Simulateur - Notifications locales uniquement",
+      "simulatorNote": "Pour les notifications push, utilisez un appareil physique"
+    },
+    "messages": {
+      "localTest": "Notification instantanée sur cet appareil",
+      "remoteTest": "Notification via serveur distant",
+      "emailTest": "Envoyer un email de test dans votre boîte mail",
+      "requiresDevice": "Nécessite un appareil physique",
+      "tokenSaved": "Token sauvegardé automatiquement dans votre profil",
+      "openSettings": "Ouvre les paramètres système",
+      "pushFromServer": "Notification push envoyée depuis le serveur",
+      "sessionNotFound": "Session utilisateur non trouvée",
+      "pushRequiresDevice": "Les notifications push nécessitent un appareil physique. Utilisez le test local sur simulateur.",
+      "settingsError": "Impossible d'ouvrir automatiquement les paramètres système. Allez manuellement dans Paramètres > Notifications."
+    },
+    "testButtons": {
+      "title": "Tests de Notifications",
+      "description": "Testez différents types de notifications",
+      "basicTest": "Test Simple",
+      "basicTestDescription": "Notification basique de test",
+      "soundTest": "Test avec Son",
+      "soundTestDescription": "Notification avec son et vibration",
+      "actionTest": "Test avec Actions",
+      "actionTestDescription": "Notification avec boutons d'action",
+      "reminderTest": "Test de Rappel",
+      "reminderTestDescription": "Simulation d'un rappel de tâche"
+    },
+    "alerts": {
+      "success": {
+        "title": "Succès !",
+        "message": "Les notifications ont été activées avec succès."
+      },
+      "error": {
+        "title": "Erreur",
+        "message": "Une erreur s'est produite lors de la configuration des notifications."
+      },
+      "permissionDenied": "Permission refusée",
+      "permissionDeniedMessage": "Veuillez d'abord accorder les permissions de notification",
+      "testSent": {
+        "title": "Test envoyé !",
+        "message": "Vérifiez votre centre de notifications."
+      },
+      "blocked": {
+        "title": "Permissions bloquées",
+        "message": "Les notifications sont bloquées. Vous pouvez les activer manuellement dans les paramètres de votre appareil.",
+        "cancel": "Annuler",
+        "openSettings": "Ouvrir les paramètres"
+      },
+      "denied": {
+        "title": "Permission refusée",
+        "message": "Les notifications n'ont pas pu être activées. Réessayez plus tard."
+      },
+      "tokenMissing": {
+        "title": "Token manquant",
+        "message": "Le token de notification n'est pas encore configuré."
+      },
+      "testError": {
+        "title": "Erreur",
+        "message": "Impossible d'envoyer la notification de test."
+      }
+    },
+    "debug": {
+      "title": "Infos Debug",
+      "device": "Appareil",
+      "physical": "Physique",
+      "simulator": "Simulateur",
+      "permissions": "Permissions",
+      "granted": "Accordées",
+      "notGranted": "Non accordées",
+      "token": "Token"
+    }
+  }
+}

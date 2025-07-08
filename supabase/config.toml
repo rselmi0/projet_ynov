@@ -1,0 +1,3 @@
+[auth.email.template.invite]
+subject = "You are invited to Acme Inc"
+content_path = "./supabase/templates/invite.html"

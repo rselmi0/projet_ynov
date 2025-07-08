@@ -1,0 +1,1028 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "back": "Back",
+    "complete": "Complete",
+    "save": "Save",
+    "retry": "Retry",
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "home": {
+    "welcome": {
+      "title": "Welcome! 🎉",
+      "subtitle": "Thank you for purchasing Expobase",
+      "docs": "Visit docs.expobase.dev"
+    },
+    "quickActions": {
+      "title": "Quick Actions"
+    },
+    "features": {
+      "title": "What makes Expobase special"
+    }
+  },
+  "quickActions": {
+    "profile": {
+      "title": "Profile",
+      "description": "Manage your account"
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "App preferences"
+    },
+    "ai": {
+      "title": "AI Assistant",
+      "description": "Chat with AI"
+    },
+    "payment": {
+      "title": "Payment",
+      "description": "Billing info"
+    }
+  },
+  "features": {
+    "fast": {
+      "title": "Lightning Fast",
+      "description": "Optimized performance with instant sync"
+    },
+    "secure": {
+      "title": "Secure by Design",
+      "description": "Your data is protected with encryption"
+    },
+    "ai": {
+      "title": "AI Powered",
+      "description": "Smart features to boost productivity"
+    }
+  },
+  "welcome": {
+    "title": "Welcome to Expo Supabase Starter",
+    "subtitle": "Your productivity, simplified",
+    "signUp": "Create Account",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account yet?"
+  },
+  "navigation": {
+    "app": {
+      "label": "App",
+      "title": "Application",
+      "subtitle": "Your Expo application"
+    },
+    "home": {
+      "label": "Home",
+      "title": "Dashboard",
+      "subtitle": "Overview of your activity"
+    },
+    "tasks": {
+      "label": "Tasks",
+      "title": "My Tasks",
+      "subtitle": "Manage your daily tasks"
+    },
+    "premium": {
+      "label": "Premium",
+      "title": "Premium",
+      "subtitle": "Advanced features"
+    },
+    "payment": {
+      "label": "Payment",
+      "title": "Payment Integrations",
+      "subtitle": "Available payment options"
+    },
+    "profile": {
+      "label": "Profile",
+      "title": "My Profile",
+      "subtitle": "Manage your personal information"
+    },
+    "settings": {
+      "label": "Settings",
+      "title": "Settings",
+      "subtitle": "Configure your application"
+    },
+    "offline": {
+      "label": "Offline",
+      "title": "Offline Mode",
+      "subtitle": "Local storage and synchronization"
+    },
+    "ai": {
+      "label": "AI Chat",
+      "title": "AI Assistant",
+      "subtitle": "Chat with AI powered assistant"
+    },
+    "notifications": {
+      "label": "Notifications",
+      "title": "Notifications",
+      "subtitle": "Manage your alerts",
+      "description": "Manage your alerts and push notifications"
+    }
+  },
+  "payment": {
+    "title": "Payment Options",
+    "subtitle": "Choose your preferred method",
+    "buttons": {
+      "stripeRedirect": {
+        "title": "Stripe Redirect",
+        "subtitle": "Secure external payment page"
+      },
+      "stripeInApp": {
+        "title": "Stripe In-App",
+        "subtitle": "Integrated payment within the app"
+      },
+      "revenueCat": {
+        "title": "RevenueCat Paywall",
+        "subtitle": "Subscriptions and in-app purchases"
+      }
+    },
+    "comparison": {
+      "title": "Comparison",
+      "stripe": "Stripe",
+      "revenueCat": "RevenueCat",
+      "easeOfUse": "Ease of Use",
+      "transactionFees": "Transaction Fees",
+      "platform": "Platform",
+      "values": {
+        "average": "Medium",
+        "easy": "Easy",
+        "webMobile": "Web+Mobile",
+        "mobileOnly": "Mobile only"
+      }
+    },
+    "alerts": {
+      "notAuthenticated": "Not authenticated",
+      "stripeRedirectError": "Failed to create Stripe session",
+      "stripeMissingUrl": "Stripe URL missing",
+      "paymentIntentError": "Failed to create PaymentIntent",
+      "paymentError": "An error occurred during payment",
+      "paymentSuccess": "Payment successful!",
+      "generalError": "An error occurred"
+    }
+  },
+  "premium": {
+    "title": "Premium",
+    "subtitle": "Exclusive features",
+    "verifying": "Verifying access...",
+    "access": {
+      "authRequired": {
+        "title": "Login required",
+        "message": "Please log in to access Premium features."
+      },
+      "premiumRequired": {
+        "title": "Premium access required",
+        "message": "This section is reserved for Premium members. Discover our offers!"
+      },
+      "viewOffers": "View offers"
+    },
+    "error": {
+      "title": "Verification error",
+      "message": "Unable to verify your Premium status. Please try again."
+    },
+    "status": {
+      "active": "Premium Status Active",
+      "renewal": "Renewal",
+      "unlimited": "Unlimited"
+    },
+    "features": {
+      "title": "Premium Features",
+      "advanced": {
+        "title": "Advanced Features",
+        "description": "Access to all exclusive features and pro tools"
+      },
+      "sync": {
+        "title": "Cloud Synchronization",
+        "description": "Automatic backup and real-time sync across all your devices"
+      },
+      "security": {
+        "title": "Enhanced Security",
+        "description": "Advanced encryption and data protection"
+      },
+      "team": {
+        "title": "Team Collaboration",
+        "description": "Share and collaborate with your team in real-time"
+      },
+      "analytics": {
+        "title": "Advanced Analytics",
+        "description": "Detailed statistics and custom reports"
+      }
+    },
+    "support": {
+      "title": "Premium Support",
+      "contact": "Priority Support 24/7",
+      "description": "Have a question? Our team is here to help"
+    },
+    "management": {
+      "title": "Management",
+      "billing": "Billing and payments",
+      "subscription": {
+        "title": "Manage subscription",
+        "message": "To modify or cancel your subscription, go to your account settings.",
+        "settings": "Open settings"
+      }
+    },
+    "restore": {
+      "button": "Restore Purchases",
+      "restoring": "Restoring...",
+      "description": "Restore your previous subscriptions",
+      "alerts": {
+        "success": {
+          "title": "✅ Purchases Restored",
+          "message": "Your purchases have been successfully restored! Your premium status has been updated."
+        },
+        "noItems": {
+          "title": "⚠️ No Purchases Found",
+          "message": "No previous purchases found for this Apple/Google account."
+        },
+        "error": {
+          "title": "❌ Error",
+          "message": "Unable to restore your purchases. Check your connection and try again."
+        }
+      }
+    }
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "contact": {
+      "title": "Contact",
+      "content": "For any questions regarding these terms, please contact us via the \"Report a Problem\" section in the app settings."
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "subtitle": "Terms of use",
+      "header": "Terms of Service",
+      "sections": {
+        "acceptance": {
+          "title": "Acceptance of Terms",
+          "content": "By using this application, you agree to be bound by these terms of service. If you do not accept these terms, please do not use the application."
+        },
+        "serviceDescription": {
+          "title": "Service Description",
+          "content": "Our application provides task management services, data storage and premium access. We reserve the right to modify, suspend or discontinue all or part of the service at any time."
+        },
+        "userAccounts": {
+          "title": "User Accounts",
+          "content": "You are responsible for maintaining the confidentiality of your account and password. You agree to notify us immediately of any unauthorized use of your account."
+        },
+        "premiumSubscriptions": {
+          "title": "Premium Subscriptions",
+          "content": "Premium subscriptions are billed according to current rates. Payments are processed via app stores (App Store, Google Play). Refunds are subject to store policies."
+        },
+        "acceptableUse": {
+          "title": "Acceptable Use",
+          "content": "You agree to use the application in a legal and respectful manner. Any abusive use, hacking attempts or behavior harmful to other users is strictly prohibited."
+        },
+        "intellectualProperty": {
+          "title": "Intellectual Property",
+          "content": "The application and its content are protected by intellectual property laws. You may not copy, modify, distribute or create derivative works without written authorization."
+        },
+        "limitationOfLiability": {
+          "title": "Limitation of Liability",
+          "content": "The application is provided \"as is\". We do not guarantee that the service will be uninterrupted or error-free. Our liability is limited to the fullest extent permitted by law."
+        },
+        "modifications": {
+          "title": "Modifications to Terms",
+          "content": "We reserve the right to modify these terms at any time. Modifications take effect immediately upon publication. Your continued use constitutes acceptance of the new terms."
+        }
+      }
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "subtitle": "Data protection",
+      "header": "Privacy Policy",
+      "introduction": "We are committed to protecting and respecting your privacy. This policy explains how we collect, use and protect your personal information.",
+      "contact": "For any questions regarding this privacy policy or to exercise your rights, use the \"Report a Problem\" function in the app settings.",
+      "sections": {
+        "dataCollection": {
+          "title": "Information we collect",
+          "accountInfo": "Account information",
+          "accountInfoDetails": "Email, name, user preferences",
+          "usageData": "Usage data",
+          "usageDataDetails": "App interactions, preferences, settings",
+          "technicalData": "Technical data",
+          "technicalDataDetails": "Device type, operating system, app version"
+        },
+        "dataUsage": {
+          "title": "How we use your information",
+          "improve": "Provide and improve our services",
+          "personalize": "Personalize your user experience",
+          "payments": "Process payments and manage subscriptions",
+          "support": "Contact you for customer support",
+          "security": "Ensure security and prevent fraud"
+        },
+        "dataSharing": {
+          "title": "Sharing your information",
+          "intro": "We never sell your personal data. We may share your information only in the following cases:",
+          "consent": "With your explicit consent",
+          "serviceProviders": "With our service providers (hosting, payment)",
+          "legal": "If required by law or to protect our rights"
+        },
+        "dataSecurity": {
+          "title": "Data storage and security",
+          "storage": "Storage",
+          "storageDetails": "Your data is stored on secure servers (Supabase)",
+          "encryption": "Encryption",
+          "encryptionDetails": "All data is encrypted in transit and at rest",
+          "access": "Access",
+          "accessDetails": "Access limited to authorized employees only",
+          "location": "Location",
+          "locationDetails": "Data stored in the European Union (GDPR)"
+        },
+        "gdprRights": {
+          "title": "Your GDPR rights",
+          "intro": "In accordance with GDPR, you have the right to:",
+          "access": "Access",
+          "accessDetails": "Obtain a copy of your data",
+          "rectification": "Rectification",
+          "rectificationDetails": "Correct inaccurate data",
+          "deletion": "Deletion",
+          "deletionDetails": "Request erasure of your data",
+          "portability": "Portability",
+          "portabilityDetails": "Receive your data in a readable format",
+          "objection": "Objection",
+          "objectionDetails": "Object to the processing of your data"
+        },
+        "cookies": {
+          "title": "Cookies and similar technologies",
+          "intro": "Our application uses local storage technologies to:",
+          "preferences": "Remember your preferences (theme, language)",
+          "session": "Maintain your user session",
+          "performance": "Improve application performance"
+        },
+        "dataRetention": {
+          "title": "Data retention",
+          "content": "We retain your personal data as long as necessary to provide our services or as required by legal requirements. You can request deletion of your account at any time."
+        },
+        "policyUpdates": {
+          "title": "Policy updates",
+          "content": "We may update this privacy policy occasionally. We will notify you of important changes via the application or by email."
+        }
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for doesn't exist or has been moved to a different location.",
+    "actions": {
+      "goHome": "Go to Home",
+      "goBack": "Go Back"
+    },
+    "help": {
+      "message": "If you think this is an error, please contact our support team for assistance."
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign In",
+      "subtitle": "Connect to your account",
+      "email": "Email",
+      "password": "Password",
+      "emailPlaceholder": "your@email.com",
+      "passwordPlaceholder": "Password",
+      "submitButton": "Sign In",
+      "errorTitle": "Error",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account yet?",
+      "createAccount": "Create Account"
+    },
+    "signUp": {
+      "title": "Create Account",
+      "subtitle": "Join us in just a few clicks",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "emailPlaceholder": "your@email.com",
+      "passwordPlaceholder": "Secure password",
+      "confirmPasswordPlaceholder": "Confirm Password",
+      "submitButton": "Create my account",
+      "errorTitle": "Error",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "resetPassword": {
+      "title": "Forgot password?",
+      "subtitle": "No worries! Enter your email address and we'll send you a link to reset your password.",
+      "emailPlaceholder": "Email address",
+      "sendLink": "Send link",
+      "sending": "Sending...",
+      "emailSent": "Email sent!",
+      "successMessage": "A reset email has been sent to {{email}}",
+      "rememberPassword": "Remember your password?",
+      "signIn": "Sign In",
+      "emailRequired": "Please enter your email address",
+      "emailInvalid": "Please enter a valid email address",
+      "emailSentTitle": "Email sent!",
+      "emailSentMessage": "Check your mailbox to reset your password.",
+      "generalError": "An error occurred while sending the email"
+    },
+    "google": {
+      "signIn": "Continue with Google",
+      "signUp": "Sign up with Google",
+      "error": "Error signing in with Google"
+    },
+    "apple": {
+      "signIn": "Continue with Apple",
+      "signUp": "Sign up with Apple",
+      "error": "Error signing in with Apple"
+    },
+    "validation": {
+      "emailRequired": "Please enter a valid email address.",
+      "passwordMinLength": "Please enter at least 8 characters.",
+      "passwordMaxLength": "Please enter less than 64 characters.",
+      "passwordLowercase": "Your password must contain at least one lowercase letter.",
+      "passwordUppercase": "Your password must contain at least one uppercase letter.",
+      "passwordNumber": "Your password must contain at least one number.",
+      "passwordSpecialChar": "Your password must contain at least one special character.",
+      "passwordsDoNotMatch": "Your passwords do not match.",
+      "signInError": "An error occurred while signing in",
+      "signUpError": "An error occurred while signing up"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "edit": {
+      "title": "Edit Profile",
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name",
+        "title": "Edit First Name"
+      },
+      "lastName": {
+        "label": "Last Name",
+        "placeholder": "Enter your last name",
+        "title": "Edit Last Name"
+      },
+      "avatar": {
+        "label": "Avatar URL",
+        "placeholder": "https://example.com/avatar.jpg",
+        "title": "Edit Avatar URL",
+        "changePhoto": "Change Photo",
+        "deletePhoto": "Delete Photo",
+        "preview": "Image preview:"
+      }
+    },
+    "info": {
+      "email": "Email",
+      "memberSince": "Member Since",
+      "avatarUrl": "Avatar URL"
+    },
+    "status": {
+      "title": "Status",
+      "paid": "Paid User",
+      "premium": "Premium User",
+      "complete": "Profile Complete",
+      "incomplete": "Profile Incomplete"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "update": "Update Profile",
+      "signOut": "Sign Out"
+    },
+    "alerts": {
+      "updateSuccess": "Profile updated successfully",
+      "updateError": "Unable to save. Please try again.",
+      "avatarError": "Unable to save avatar. Please try again.",
+      "imageSelected": "Image selected successfully!",
+      "imageUploaded": "Image uploaded successfully!",
+      "imageDeleted": "Image deleted successfully!",
+      "uploadError": "Error uploading image",
+      "deleteError": "Error deleting image",
+      "imageSelectionError": "Error selecting image",
+      "permissionDenied": "Permission Denied",
+      "permissionError": "Error checking permissions",
+      "cameraPermissionMessage": "Camera access is required to take a photo",
+      "galleryPermissionMessage": "Gallery access is required to select an image",
+      "deleteImageTitle": "Delete Image",
+      "deleteImageMessage": "Are you sure you want to delete this profile image?",
+      "deleteConfirm": "Delete",
+      "completeProfile": "⚠️ Please complete your profile"
+    },
+    "toasts": {
+      "updateSuccess": "✅ Profile updated successfully",
+      "updateError": "❌ Unable to save. Please try again.",
+      "avatarSuccess": "✅ Profile photo updated",
+      "avatarError": "❌ Unable to save avatar"
+    },
+    "placeholders": {
+      "addFirstName": "Add your first name",
+      "addLastName": "Add your last name",
+      "addAvatarUrl": "Add an avatar URL"
+    },
+    "imageSource": {
+      "title": "Change Profile Photo",
+      "gallery": "Choose from Gallery",
+      "camera": "Take Photo",
+      "delete": "Delete Image",
+      "cancel": "Cancel"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": {
+      "title": "Profile",
+      "email": "Email",
+      "fullName": "Full Name",
+      "status": "Status"
+    },
+    "subscription": {
+      "title": "Subscription",
+      "payment": "Payment",
+      "premium": "Premium",
+      "paid": "Paid",
+      "free": "Free",
+      "standard": "Standard",
+      "premiumStandard": "Premium",
+      "premiumRevenueCat": "Premium (RevenueCat)"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "Manage your alerts and push notifications",
+      "footer": "Manage how you want to receive notifications",
+      "description": "Notifications allow you to receive important updates, reminders and security alerts.",
+      "configuration": "Configuration...",
+      "enable": "Enable notifications",
+      "testing": "Sending...",
+      "testNotifications": "Test notifications",
+      "token": {
+        "label": "Push Token"
+      },
+      "push": "Push Notifications",
+      "pushEnabled": "Receive push notifications on your device",
+      "pushDisabled": "Push notifications are disabled",
+      "email": "Email Notifications",
+      "emailEnabled": "Receive notifications via email",
+      "emailDisabled": "Email notifications are disabled",
+      "marketing": "Marketing Communications",
+      "marketingEnabled": "Receive promotional content and updates",
+      "marketingDisabled": "Marketing communications are disabled",
+      "test": {
+        "local": {
+          "title": "🎉 Local Test",
+          "body": "Your local notification is working perfectly!"
+        },
+        "remote": {
+          "title": "🚀 Push Test",
+          "body": "Your push notification is working perfectly!"
+        },
+        "description": "Send a test notification to verify settings"
+      },
+      "permission": {
+        "status": "Permission status",
+        "request": "Request permissions",
+        "granted": "Granted",
+        "denied": "Denied",
+        "blocked": "Blocked"
+      },
+      "actions": {
+        "requestPermission": "Allow",
+        "testLocal": "Local Test",
+        "testRemote": "Push Test",
+        "refresh": "Refresh",
+        "settings": "Settings"
+      },
+      "status": {
+        "checking": "Checking...",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "connected": "Connected",
+        "disconnected": "Disconnected"
+      },
+      "device": {
+        "real": "Physical device - All features available",
+        "simulator": "Simulator - Local notifications only",
+        "simulatorNote": "For push notifications, use a physical device"
+      },
+      "messages": {
+        "localTest": "Instant notification on this device",
+        "remoteTest": "Notification via remote server",
+        "requiresDevice": "Requires a physical device",
+        "tokenSaved": "Token automatically saved to your profile",
+        "openSettings": "Opens system settings",
+        "pushFromServer": "Push notification sent from server",
+        "sessionNotFound": "User session not found",
+        "pushRequiresDevice": "Push notifications require a physical device. Use local test on simulator.",
+        "settingsError": "Unable to open system settings automatically. Please go to Settings > Notifications manually."
+      },
+      "testButtons": {
+        "title": "Notification Tests",
+        "description": "Test different types of notifications",
+        "basicTest": "Basic Test",
+        "basicTestDescription": "Simple test notification",
+        "soundTest": "Sound Test",
+        "soundTestDescription": "Notification with sound and vibration",
+        "actionTest": "Action Test",
+        "actionTestDescription": "Notification with action buttons",
+        "reminderTest": "Reminder Test",
+        "reminderTestDescription": "Task reminder simulation"
+      },
+      "alerts": {
+        "success": {
+          "title": "Success!",
+          "message": "Notifications have been successfully enabled."
+        },
+        "error": {
+          "title": "Error",
+          "message": "An error occurred while configuring notifications."
+        },
+        "permissionDenied": "Permission denied",
+        "permissionDeniedMessage": "Please grant notification permissions first",
+        "testSent": {
+          "title": "Notification Sent!",
+          "message": "Check your notification bar."
+        },
+        "blocked": {
+          "title": "Permissions Blocked",
+          "message": "Notifications are blocked. You can enable them manually in your device settings.",
+          "cancel": "Cancel",
+          "openSettings": "Open Settings"
+        },
+        "denied": {
+          "title": "Permission Denied",
+          "message": "Notifications could not be enabled. Please try again later."
+        },
+        "tokenMissing": {
+          "title": "Token Missing",
+          "message": "The notification token is not yet configured."
+        },
+        "testError": {
+          "title": "Error",
+          "message": "Unable to send test notification."
+        }
+      },
+      "debug": {
+        "title": "Debug Info",
+        "device": "Device",
+        "physical": "Physical",
+        "simulator": "Simulator",
+        "permissions": "Permissions",
+        "granted": "Granted",
+        "notGranted": "Not granted",
+        "token": "Token"
+      }
+    },
+    "preferences": {
+      "title": "Preferences",
+      "footer": "Customize your app experience",
+      "language": "Language",
+      "languageEnglish": "English",
+      "languageFrench": "Français",
+      "languagePortuguese": "Português",
+      "languageSpanish": "Español",
+      "selectLanguage": "Select Language",
+      "theme": "Theme",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "themeSystem": "System",
+      "selectTheme": "Select Theme",
+      "darkMode": "Dark Mode",
+      "darkModeOn": "Dark mode is enabled",
+      "darkModeOff": "Light mode is enabled"
+    },
+    "memberSince": "Member Since",
+    "signOut": "Sign Out"
+  },
+  "ai": {
+    "title": "AI Assistant",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "thinking": "AI is thinking...",
+    "welcome": {
+      "title": "AI Assistant",
+      "subtitle": "Start a conversation with our intelligent assistant and get help with anything you need."
+    },
+    "error": "Sorry, I encountered an error. Please try again.",
+    "clear": "Clear Chat",
+    "newChat": "New Chat",
+    "emptyState": "Ask our AI",
+    "emptySubtitle": "Start a conversation with our intelligent assistant",
+    "prompts": {
+      "creative": "Write a creative story",
+      "help": "How can you help me?",
+      "explain": "Explain something to me",
+      "ideas": "Give me some ideas"
+    }
+  },
+  "tasks": {
+    "title": "My Tasks",
+    "create": {
+      "title": "New Task",
+      "placeholder": "Add a new task...",
+      "titleInput": "Task title",
+      "titlePlaceholder": "Enter task title...",
+      "descriptionInput": "Description",
+      "descriptionPlaceholder": "Add description (optional)",
+      "createButton": "Create Task",
+      "createButtonDisabled": "Enter task title",
+      "error": "Unable to create task"
+    },
+    "edit": {
+      "title": "Edit task",
+      "titleLabel": "Task title",
+      "titlePlaceholder": "Task title...",
+      "descriptionLabel": "Description (optional)",
+      "descriptionPlaceholder": "Add a description..."
+    },
+    "update": {
+      "error": "Unable to update task"
+    },
+    "toggle": {
+      "error": "Unable to modify task"
+    },
+    "delete": {
+      "error": "Unable to delete task"
+    },
+    "list": {
+      "empty": "No tasks yet",
+      "emptySubtitle": "Create your first task to get started",
+      "emptyHint": "Tap the input above to add your first task",
+      "pending": "pending",
+      "completed": "completed",
+      "allCompleted": "All tasks completed! 🎉",
+      "pendingSection": "To Do",
+      "completedSection": "Completed"
+    },
+    "status": {
+      "offline": "Offline",
+      "pending": "Pending sync",
+      "syncing": "Syncing...",
+      "local": "Local",
+      "synced": "Synced"
+    },
+    "actions": {
+      "complete": "Mark as complete",
+      "uncomplete": "Mark as incomplete",
+      "delete": "Delete task",
+      "sync": "Sync now"
+    },
+    "alerts": {
+      "deleteTitle": "Delete Task",
+      "deleteMessage": "Are you sure you want to delete this task?",
+      "deleteConfirm": "Delete",
+      "deleteCancel": "Cancel",
+      "createError": "Unable to create task",
+      "updateError": "Unable to update task",
+      "deleteError": "Unable to delete task",
+      "syncSuccess": "Synchronization completed",
+      "syncError": "Synchronization failed"
+    },
+    "toasts": {
+      "created": "✅ Task added successfully",
+      "updated": "✅ Task updated",
+      "completed": "✅ Task marked as completed",
+      "uncompleted": "🔄 Task marked as incomplete",
+      "deleted": "🗑️ Task deleted",
+      "createError": "❌ Failed to create",
+      "updateError": "❌ Failed to update",
+      "deleteError": "❌ Failed to delete",
+      "toggleError": "❌ Failed to modify"
+    }
+  },
+  "onboarding": {
+    "progress": {
+      "step": "Step {{current}} of {{total}}"
+    },
+    "buttons": {
+      "continue": "Continue",
+      "back": "Back",
+      "skip": "Skip for now",
+      "complete": "Complete setup"
+    },
+    "step1": {
+      "title": "Welcome! Let's get started",
+      "subtitle": "Tell us your name so we can personalize your experience.",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "firstNamePlaceholder": "Enter your first name",
+      "lastNamePlaceholder": "Enter your last name",
+      "requiredFields": "Required Fields",
+      "enterBothNames": "Please enter both your first and last name."
+    },
+    "step2": {
+      "title": "Powerful features at your fingertips",
+      "subtitle": "Everything you need to stay productive and organized.",
+      "features": {
+        "fast": {
+          "title": "Lightning Fast",
+          "description": "Optimized performance with instant sync across all your devices."
+        },
+        "secure": {
+          "title": "Secure by Design",
+          "description": "End-to-end encryption keeps your data private and protected."
+        },
+        "offline": {
+          "title": "Offline Ready",
+          "description": "Work anywhere, anytime. Automatic sync when you're back online."
+        }
+      }
+    },
+    "step3": {
+      "title": "Choose your notification preferences",
+      "subtitle": "We'll help you stay on top of your tasks and deadlines.",
+      "completing": "Setting up your account...",
+      "enableNotifications": "Enable Notifications",
+      "notificationDescription": "Stay informed about important updates, task reminders, and security alerts.",
+      "benefits": "Benefits",
+      "permissionGranted": "Notifications are enabled and ready to go!",
+      "permissionWillRequest": "We'll request permission when you complete setup."
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "description": "Choose how you'd like to be notified about important updates and reminders.",
+      "pushTitle": "Push Notifications",
+      "pushDescription": "Receive real-time updates about your account and activities",
+      "benefitsTitle": "You'll be notified about:",
+      "benefits": {
+        "updates": "Important updates and reminders",
+        "sync": "Synchronization notifications",
+        "security": "Security alerts and tips"
+      },
+      "privacyNote": "We respect your privacy. No spam, only useful notifications.",
+      "status": {
+        "label": "Status",
+        "checking": "Checking...",
+        "granted": "Granted",
+        "blocked": "Blocked (system settings)",
+        "notGranted": "Not granted"
+      }
+    },
+    "errors": {
+      "noUserSession": "No user session found",
+      "permissionDenied": "Permission denied",
+      "permissionMessage": "Notifications could not be enabled. You can enable them later in settings.",
+      "configError": "Error",
+      "configMessage": "Unable to configure notifications. You can try again later in settings.",
+      "completionError": "Failed to complete onboarding. Please try again."
+    }
+  },
+  "offline": {
+    "title": "Offline Mode",
+    "status": {
+      "title": "📡 Status",
+      "network": "Network",
+      "online": "Online",
+      "offline": "Offline"
+    },
+    "tasks": {
+      "title": "📝 Tasks",
+      "total": "Total",
+      "completed": "Completed",
+      "toSync": "To synchronize"
+    },
+    "storage": {
+      "title": "💾 MMKV Storage",
+      "keys": "keys"
+    },
+    "actions": {
+      "testMmkv": "Test MMKV",
+      "refresh": "Refresh",
+      "clearAll": "🗑️ Clear All"
+    },
+    "alerts": {
+      "clearAll": {
+        "title": "Clear All Storage",
+        "message": "This action will delete all locally stored data. Are you sure?",
+        "cancel": "Cancel",
+        "confirm": "Delete All"
+      },
+      "clearSuccess": {
+        "title": "Success",
+        "message": "All storage has been cleared"
+      },
+      "testMmkv": {
+        "title": "MMKV Test",
+        "message": "Saved: {{saved}}\nRetrieved: {{retrieved}}"
+      },
+      "testError": {
+        "title": "Error",
+        "message": "{{error}}"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "subtitle": "Manage your alerts and push notifications",
+    "footer": "Manage how you want to receive notifications",
+    "description": "Notifications allow you to receive important updates, reminders and security alerts.",
+    "configuration": "Configuration...",
+    "enable": "Enable notifications",
+    "testing": "Sending...",
+    "testNotifications": "Test notifications",
+    "token": {
+      "label": "Push Token"
+    },
+    "push": "Push Notifications",
+    "pushEnabled": "Receive push notifications on your device",
+    "pushDisabled": "Push notifications are disabled",
+    "email": "Email Notifications",
+    "emailEnabled": "Receive notifications via email",
+    "emailDisabled": "Email notifications are disabled",
+    "marketing": "Marketing Communications",
+    "marketingEnabled": "Receive promotional content and updates",
+    "marketingDisabled": "Marketing communications are disabled",
+    "test": {
+      "local": {
+        "title": "🎉 Local Test",
+        "body": "Your local notification is working perfectly!"
+      },
+      "remote": {
+        "title": "🚀 Push Test",
+        "body": "Your push notification is working perfectly!"
+      },
+      "description": "Send a test notification to verify settings"
+    },
+    "permission": {
+      "status": "Permission status",
+      "request": "Request permissions",
+      "granted": "Granted",
+      "denied": "Denied",
+      "blocked": "Blocked"
+    },
+    "actions": {
+      "requestPermission": "Allow",
+      "testLocal": "Local Test",
+      "testRemote": "Push Test",
+      "testEmail": "Email Test",
+      "refresh": "Refresh",
+      "settings": "Settings"
+    },
+    "status": {
+      "checking": "Checking...",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "connected": "Connected",
+      "disconnected": "Disconnected"
+    },
+    "device": {
+      "real": "Physical device - All features available",
+      "simulator": "Simulator - Local notifications only",
+      "simulatorNote": "For push notifications, use a physical device"
+    },
+    "messages": {
+      "localTest": "Instant notification on this device",
+      "remoteTest": "Notification via remote server",
+      "emailTest": "Send test email to your inbox",
+      "requiresDevice": "Requires a physical device",
+      "tokenSaved": "Token automatically saved to your profile",
+      "openSettings": "Opens system settings",
+      "pushFromServer": "Push notification sent from server",
+      "sessionNotFound": "User session not found",
+      "pushRequiresDevice": "Push notifications require a physical device. Use local test on simulator.",
+      "settingsError": "Unable to open system settings automatically. Please go to Settings > Notifications manually."
+    },
+    "testButtons": {
+      "title": "Notification Tests",
+      "description": "Test different types of notifications",
+      "basicTest": "Basic Test",
+      "basicTestDescription": "Simple test notification",
+      "soundTest": "Sound Test",
+      "soundTestDescription": "Notification with sound and vibration",
+      "actionTest": "Action Test",
+      "actionTestDescription": "Notification with action buttons",
+      "reminderTest": "Reminder Test",
+      "reminderTestDescription": "Task reminder simulation"
+    },
+    "alerts": {
+      "success": {
+        "title": "Success!",
+        "message": "Notifications have been successfully enabled."
+      },
+      "error": {
+        "title": "Error",
+        "message": "An error occurred while configuring notifications."
+      },
+      "permissionDenied": "Permission denied",
+      "permissionDeniedMessage": "Please grant notification permissions first",
+      "testSent": {
+        "title": "Notification Sent!",
+        "message": "Check your notification bar."
+      },
+      "blocked": {
+        "title": "Permissions Blocked",
+        "message": "Notifications are blocked. You can enable them manually in your device settings.",
+        "cancel": "Cancel",
+        "openSettings": "Open Settings"
+      },
+      "denied": {
+        "title": "Permission Denied",
+        "message": "Notifications could not be enabled. Please try again later."
+      },
+      "tokenMissing": {
+        "title": "Token Missing",
+        "message": "The notification token is not yet configured."
+      },
+      "testError": {
+        "title": "Error",
+        "message": "Unable to send test notification."
+      }
+    },
+    "debug": {
+      "title": "Debug Info",
+      "device": "Device",
+      "physical": "Physical",
+      "simulator": "Simulator",
+      "permissions": "Permissions",
+      "granted": "Granted",
+      "notGranted": "Not granted",
+      "token": "Token"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "expo": {
+    "name": "Expobase",
+    "slug": "expoplate",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "scheme": "com.expoplate.expoplate",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#FF3B30",
+          "defaultChannel": "default"
+        }
+      ],
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.com.expoplate",
+          "publishableKey": "pk_test_SAqr8SzsN6BKtHomDpJix0rU"
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.692909867915-8g06vk3jlvf3tv395irdj1vmjmhquu66"
+        }
+      ],
+      [
+        "expo-apple-authentication"
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "explopate",
+          "organization": "expoplate"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splashscreen/splashscreen_light.png",
+          "dark": {
+            "image": "./assets/splashscreen/splashscreen_dark.png",
+            "backgroundColor": "#151718"
+          },
+          "backgroundColor": "#FF3B30",
+          "imageWidth": 200
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "This app needs access to your photo library to allow you to choose a profile picture.",
+          "cameraPermission": "This app needs access to your camera to allow you to take a profile picture."
+        }
+      ],
+      "expo-localization"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "newArchEnabled": true,
+    "ios": {
+      "icon": {
+        "light": "./assets/icons/icon_light.png",
+        "dark": "./assets/icons/icon_dark.png"
+      },
+      "useAppleSignIn": true,
+      "supportsTablet": true,
+      "bundleIdentifier": "com.expoplate.expoplate",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to allow you to choose a profile picture.",
+        "NSCameraUsageDescription": "This app needs access to your camera to allow you to take a profile picture."
+      }
+    },
+    "android": {
+      "package": "com.expoplate.expoplate",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive_icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "router": {
+        "server": {
+          "enabled": false
+        }
+      },
+      "eas": {
+        "projectId": "5c9912e0-b3e6-43af-9251-6cf1a44f274f"
+      }
+    },
+    "owner": "expoplate",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/5c9912e0-b3e6-43af-9251-6cf1a44f274f"
+    }
+  }
+}
