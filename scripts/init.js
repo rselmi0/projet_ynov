@@ -132,13 +132,7 @@ function updateAppConfig(bundleId, appName, appSlug) {
   appConfig.expo.ios.bundleIdentifier = bundleId;
   appConfig.expo.android.package = bundleId;
   
-  // Remove Stripe plugin
-  appConfig.expo.plugins = appConfig.expo.plugins.filter(plugin => {
-    if (Array.isArray(plugin)) {
-      return plugin[0] !== '@stripe/stripe-react-native';
-    }
-    return plugin !== '@stripe/stripe-react-native';
-  });
+
   
   // Remove owner field
   delete appConfig.expo.owner;
@@ -154,22 +148,9 @@ function updateAppConfig(bundleId, appName, appSlug) {
   // Remove updates URL
   delete appConfig.expo.updates;
   
-  // Remove Sentry configuration (template specific)
-  appConfig.expo.plugins = appConfig.expo.plugins.filter(plugin => {
-    if (Array.isArray(plugin)) {
-      return plugin[0] !== '@sentry/react-native/expo';
-    }
-    return plugin !== '@sentry/react-native/expo';
-  });
+
   
-  // Update Google Sign-In iOS URL scheme to match new bundle ID
-  appConfig.expo.plugins = appConfig.expo.plugins.map(plugin => {
-    if (Array.isArray(plugin) && plugin[0] === '@react-native-google-signin/google-signin') {
-      // Keep the existing configuration but this can be updated later during Google setup
-      return plugin;
-    }
-    return plugin;
-  });
+
   
   fs.writeFileSync(appConfigPath, JSON.stringify(appConfig, null, 2));
   log('✅ Updated app.json', 'green');
@@ -241,21 +222,7 @@ function updateIdentifiersInProject(bundleId) {
   log(`✅ Updated ${updatedFiles} files with new identifiers`, 'green');
 }
 
-function removeStripeFromPackageJson() {
-  const packagePath = path.join(process.cwd(), 'package.json');
-  
-  log('🗑️ Removing Stripe dependency...', 'yellow');
-  
-  const packageJson = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
-  
-  if (packageJson.dependencies && packageJson.dependencies['@stripe/stripe-react-native']) {
-    delete packageJson.dependencies['@stripe/stripe-react-native'];
-    fs.writeFileSync(packagePath, JSON.stringify(packageJson, null, 2));
-    log('✅ Removed Stripe dependency from package.json', 'green');
-  } else {
-    log('ℹ️ Stripe dependency not found in package.json', 'blue');
-  }
-}
+
 
 async function runInitialization() {
   console.clear();
@@ -291,10 +258,7 @@ async function runInitialization() {
     // Step 3: Update package.json
     updatePackageJson(appName, appSlug);
     
-    // Step 4: Remove Stripe from dependencies
-    removeStripeFromPackageJson();
-    
-    // Step 5: Update identifiers throughout project
+    // Step 4: Update identifiers throughout project
     updateIdentifiersInProject(bundleId);
     
     // Success message
@@ -307,9 +271,7 @@ async function runInitialization() {
     log('5. Set up your authentication providers', 'yellow');
     
     log('\n⚠️ Important Notes:', 'magenta');
-    log('• Stripe configuration has been removed', 'yellow');
     log('• EAS project ID and owner have been cleared', 'yellow');
-    log('• Google Sign-In will need reconfiguration', 'yellow');
     log('• Update your environment variables accordingly', 'yellow');
     
   } catch (error) {
