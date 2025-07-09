@@ -16,7 +16,7 @@ For complete setup instructions, features overview, and development guides, visi
 
 Need help? Have questions? Contact our support team:
 
-**support@expobase.dev**
+**team@expobase.dev**
 
 ## 🚀 Quick Start
 
