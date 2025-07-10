@@ -31,4 +31,7 @@ project-architecture.txt
 
 # Supabase
 supabase/.temp
+supabase/.env
+supabase/functions/.env
+supabase/.branches
 

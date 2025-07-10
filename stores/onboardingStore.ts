@@ -3,6 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import { zustandStorage } from '../lib/storage/zustand';
 import { supabase } from '../config/supabase';
 import { OnboardingState } from '../types/stores.d';
+import { useProfileStore } from './profileStore';
 
 export const useOnboardingStore = create<OnboardingState>()(
   persist(
@@ -51,6 +52,10 @@ export const useOnboardingStore = create<OnboardingState>()(
 
           // Mark onboarding as completed
           set({ completed: true });
+          
+          // Reload the profile to ensure the updated onboarding_completed status is reflected
+          const { fetchProfile } = useProfileStore.getState();
+          await fetchProfile(userId);
           
         } catch (error) {
           console.error('Error during onboarding:', error);
