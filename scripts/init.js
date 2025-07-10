@@ -190,16 +190,18 @@ function searchAndReplace(filePath, searchValue, replaceValue) {
   return false;
 }
 
-function updateIdentifiersInProject(bundleId) {
+function updateIdentifiersInProject(bundleId, appSlug) {
   log('🔍 Updating identifiers throughout the project...', 'cyan');
   
   const oldBundleId = 'com.expoplate.expoplate';
   const oldTemplateId = 'com.expobase.template';
+  const oldProjectId = 'expobase';
   
   // Files to update
   const filesToCheck = [
     'README.md',
-    'eas.json'
+    'eas.json',
+    'supabase/config.toml'
   ];
   
   let updatedFiles = 0;
@@ -208,10 +210,16 @@ function updateIdentifiersInProject(bundleId) {
     const filePath = path.join(process.cwd(), file);
     let updated = false;
     
+    // Common replacements for all files
     updated = searchAndReplace(filePath, oldBundleId, bundleId) || updated;
     updated = searchAndReplace(filePath, oldTemplateId, bundleId) || updated;
     updated = searchAndReplace(filePath, 'expoplate', bundleId.split('.')[1] || 'myapp') || updated;
     updated = searchAndReplace(filePath, 'Expobase', bundleId.split('.')[1] || 'MyApp') || updated;
+    
+    // Specific replacements for supabase/config.toml
+    if (file === 'supabase/config.toml') {
+      updated = searchAndReplace(filePath, `project_id = "${oldProjectId}"`, `project_id = "${appSlug}"`) || updated;
+    }
     
     if (updated) {
       updatedFiles++;
@@ -259,7 +267,7 @@ async function runInitialization() {
     updatePackageJson(appName, appSlug);
     
     // Step 4: Update identifiers throughout project
-    updateIdentifiersInProject(bundleId);
+    updateIdentifiersInProject(bundleId, appSlug);
     
     // Success message
     log('\n🎉 Initialization completed successfully!', 'green');

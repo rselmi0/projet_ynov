@@ -2,7 +2,7 @@
 # https://supabase.com/docs/guides/local-development/cli/config
 # A string used to distinguish different Supabase projects on the same host. Defaults to the
 # working directory name when running `supabase init`.
-project_id = "expobase"
+project_id = "test"
 
 [api]
 enabled = true
@@ -307,7 +307,7 @@ s3_secret_key = "env(S3_SECRET_KEY)"
 # `twitter`, `slack`, `spotify`, `workos`, `zoom`.
 [auth.external.apple]
 enabled = true
-client_id = "com.expoplate.expoplate"
+client_id = "com.expobase.expobase"
 # DO NOT commit your OAuth provider secret to git. Use environment variable substitution instead:
 secret = "env(SUPABASE_AUTH_EXTERNAL_APPLE_SECRET)"
 # Overrides the default auth redirectUrl.
