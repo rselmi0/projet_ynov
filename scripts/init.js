@@ -222,6 +222,30 @@ function updateIdentifiersInProject(bundleId) {
   log(`✅ Updated ${updatedFiles} files with new identifiers`, 'green');
 }
 
+function updateSupabaseConfig(bundleId, appSlug) {
+  const configPath = path.join(process.cwd(), 'supabase', 'config.toml');
+  
+  log('📝 Updating supabase/config.toml...', 'cyan');
+  
+  if (!fs.existsSync(configPath)) {
+    log('⚠️ supabase/config.toml not found, skipping...', 'yellow');
+    return;
+  }
+  
+  let content = fs.readFileSync(configPath, 'utf8');
+  
+  // Update project_id with app slug
+  content = content.replace(/project_id = ".*"/, `project_id = "${appSlug}"`);
+  
+  // Update Apple client_id
+  content = content.replace(/client_id = "com\.expobase\.expobase"/, `client_id = "${bundleId}"`);
+  
+  // Also update any remaining references to the old bundle ID
+  content = content.replace(/com\.expoplate\.expoplate/g, bundleId);
+  
+  fs.writeFileSync(configPath, content, 'utf8');
+  log('✅ Updated supabase/config.toml', 'green');
+}
 
 
 async function runInitialization() {
@@ -260,6 +284,9 @@ async function runInitialization() {
     
     // Step 4: Update identifiers throughout project
     updateIdentifiersInProject(bundleId);
+
+    // Step 5: Update supabase config
+    updateSupabaseConfig(bundleId, appSlug);
     
     // Success message
     log('\n🎉 Initialization completed successfully!', 'green');

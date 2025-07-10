@@ -67,7 +67,7 @@ export function OnboardingNavigationButtons({
               <Text className="mr-2 text-base font-medium text-muted-foreground">
                 {skipText || t('onboarding.buttons.skip')}
               </Text>
-            
+              <ChevronRight size={18} color={iconColors.secondary} />
             </Button>
           )}
         </View>
