@@ -320,7 +320,7 @@ redirect_uri = ""
 [auth.external.google]
 skip_nonce_check = true
 enabled = true
-client_id = "692909867915-8g06vk3jlvf3tv395irdj1vmjmhquu66.apps.googleusercontent.com"
+client_id = "env(SUPABASE_AUTH_GOOGLE_ID)"
 # secret = ""
 redirect_uri = ""
 
