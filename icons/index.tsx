@@ -143,6 +143,7 @@ export const Icons = {
   ),
   Menu: (props: IconProps) => <Menu size={24} color="#6B7280" strokeWidth={2} {...props} />,
   Bot: (props: IconProps) => <Bot size={24} color="#6B7280" strokeWidth={2} {...props} />,
+  Play: (props: IconProps) => <Play size={24} color="#6B7280" strokeWidth={2} {...props} />,
 
   // Auth & Security
   Mail: (props: IconProps) => <Mail size={20} color="#6B7280" strokeWidth={2} {...props} />,
@@ -180,6 +181,11 @@ export const Icons = {
   MoreHorizontal: (props: IconProps) => (
     <MoreHorizontal size={20} color="#6B7280" strokeWidth={2} {...props} />
   ),
+  Target: (props: IconProps) => <Target size={20} color="#6B7280" strokeWidth={2} {...props} />,
+  Crown: (props: IconProps) => <Crown size={20} color="#6B7280" strokeWidth={2} {...props} />,
+  Folder: (props: IconProps) => <Folder size={20} color="#6B7280" strokeWidth={2} {...props} />,
+  ChevronLeft: (props: IconProps) => <ChevronLeft size={20} color="#6B7280" strokeWidth={2} {...props} />,
+  AlertCircle: (props: IconProps) => <AlertCircle size={20} color="#6B7280" strokeWidth={2} {...props} />,
 };
 
 // Export individual icons for convenience

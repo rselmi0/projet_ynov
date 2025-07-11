@@ -115,6 +115,11 @@
       "title": "Notificaciones",
       "subtitle": "Gestiona tus alertas",
       "description": "Gestiona tus alertas y notificaciones push"
+    },
+    "playground": {
+      "label": "Área de juegos",
+      "title": "Área de juegos de componentes",
+      "subtitle": "Probar componentes de forma aislada"
     }
   },
   "payment": {
