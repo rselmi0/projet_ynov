@@ -110,6 +110,11 @@
       "title": "Notifications",
       "subtitle": "Gérez vos alertes",
       "description": "Gérez vos alertes et notifications push"
+    },
+    "playground": {
+      "label": "Terrain de jeu",
+      "title": "Terrain de jeu des composants",
+      "subtitle": "Tester les composants en isolation"
     }
   },
   "payment": {

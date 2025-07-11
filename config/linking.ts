@@ -45,6 +45,7 @@ export default {
               tasks: '/tasks',
               payment: '/payment',
               offline: '/offline',
+              playground: '/playground',
             },
           },
           // Other protected pages

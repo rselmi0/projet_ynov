@@ -67,6 +67,14 @@ export const navigationItems: NavigationItem[] = [
     route: '/(protected)/(tabs)/offline',
   },
   {
+    key: 'playground',
+    labelKey: 'navigation.playground.label',
+    titleKey: 'navigation.playground.title',
+    subtitleKey: 'navigation.playground.subtitle',
+    icon: 'Play',
+    route: '/(protected)/(tabs)/playground',
+  },
+  {
     key: 'notifications',
     labelKey: 'navigation.notifications.label',
     titleKey: 'navigation.notifications.title',

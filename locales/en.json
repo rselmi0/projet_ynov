@@ -115,6 +115,11 @@
       "title": "Notifications",
       "subtitle": "Manage your alerts",
       "description": "Manage your alerts and push notifications"
+    },
+    "playground": {
+      "label": "Playground",
+      "title": "Component Playground",
+      "subtitle": "Test components in isolation"
     }
   },
   "payment": {

@@ -73,6 +73,13 @@ export default function TabsLayout() {
           }}
         />
         <Drawer.Screen
+          name="playground"
+          options={{
+            drawerLabel: 'Playground',
+            title: 'Component Playground',
+          }}
+        />
+        <Drawer.Screen
           name="premium"
           options={{
             drawerLabel: 'Premium',

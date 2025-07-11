@@ -115,6 +115,11 @@
       "title": "Notificações",
       "subtitle": "Gerencie seus alertas",
       "description": "Gerencie seus alertas e notificações push"
+    },
+    "playground": {
+      "label": "Área de testes",
+      "title": "Área de testes de componentes",
+      "subtitle": "Testar componentes de forma isolada"
     }
   },
   "payment": {
