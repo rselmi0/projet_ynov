@@ -80,8 +80,8 @@ export const usePremiumStatus = (): PremiumStatus => {
       });
 
     } catch (err) {
-      console.error('❌ Erreur lors de la vérification du statut premium:', err);
-      setError(err instanceof Error ? err.message : 'Erreur inconnue');
+      console.error('❌ Error checking premium status:', err);
+      setError(err instanceof Error ? err.message : 'Unknown error');
       setIsPremium(false);
     } finally {
       setLoading(false);

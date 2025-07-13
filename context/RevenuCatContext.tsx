@@ -20,8 +20,33 @@ export const RevenueCatProvider = ({ children }: { children: ReactNode }) => {
   const [isReady, setIsReady] = useState(false);
   const [customerInfo, setCustomerInfo] = useState<RevenueCatCustomerInfo | null>(null);
 
+  // Check if API keys are configured
+  const checkAPIKeys = () => {
+    const iosKey = APIKeys.ios;
+    const androidKey = APIKeys.android;
+    
+    if (!iosKey || !androidKey || iosKey === 'undefined' || androidKey === 'undefined') {
+      console.error('❌ RevenueCat API keys are not configured!');
+      console.error('Please set the following environment variables:');
+      console.error('- EXPO_PUBLIC_RC_IOS=your_ios_api_key');
+      console.error('- EXPO_PUBLIC_RC_ANDROID=your_android_api_key');
+      console.error('Or remove the RevenueCatProvider from app/_layout.tsx if you don\'t need subscriptions');
+      
+      // Set ready to true to allow app to continue without RevenueCat
+      setIsReady(true);
+      return false;
+    }
+    return true;
+  };
+
   const init = async () => {
     console.log('🚀 RevenueCat initialization for:', Platform.OS);
+    
+    // Check if API keys are configured
+    if (!checkAPIKeys()) {
+      return;
+    }
+    
     if (Platform.OS === 'ios') {
       Purchases.configure({ apiKey: APIKeys.ios });
     } else {
@@ -117,10 +142,7 @@ export const RevenueCatProvider = ({ children }: { children: ReactNode }) => {
     init();
   }, []);
 
-  if (!isReady) {
-    return null;
-  }
-
+  // Always render children to prevent splash screen from hanging
   return (
     <RevenueCatContext.Provider
       value={{
