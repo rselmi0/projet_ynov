@@ -6,9 +6,14 @@ import { Icons } from '@/icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useIconColors } from '@/hooks/useIconColors';
 
+// Import components
+import SwipeAnimationDemo from '@/playground/ui/SwipeAnimationDemo';
+import { ExpandableFloatingButtonDemo } from '@/playground/floatingMenu';
+
 // Dynamic import mapping for component demos
 const componentMap: { [key: string]: React.ComponentType } = {
-  'ui/SwipeAnimationDemo': require('@/playground/ui/SwipeAnimationDemo.tsx').default,
+  'ui/SwipeAnimationDemo': SwipeAnimationDemo,
+  'floatingMenu/ExpandableFloatingButtonDemo': ExpandableFloatingButtonDemo,
 };
 
 export default function PlaygroundDemoScreen() {
@@ -57,7 +62,7 @@ export default function PlaygroundDemoScreen() {
             Component Not Found
           </Text>
           <Text className="text-muted-foreground text-base mt-2 text-center">
-            The component demo "{demoPath}" could not be loaded.
+            The component demo &quot;{demoPath}&quot; could not be loaded.
           </Text>
         </View>
       </View>
