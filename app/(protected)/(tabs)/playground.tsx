@@ -13,6 +13,12 @@ const demos = [
     description: 'Interactive swipe gesture with sliding menu',
     path: 'ui/SwipeAnimationDemo',
   },
+  {
+    id: 'floating-menu',
+    name: 'Floating Menu',
+    description: 'Draggable floating button with expandable menu (AssistiveTouch style)',
+    path: 'floatingMenu/ExpandableFloatingButtonDemo',
+  },
 ];
 
 export default function PlaygroundScreen() {
