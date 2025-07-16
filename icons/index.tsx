@@ -16,6 +16,7 @@ import {
   Bell,
   Shield,
   CreditCard,
+  Star,
   LogOut,
   Edit,
   Check,
@@ -31,7 +32,6 @@ import {
   Phone,
   MessageCircle,
   ExternalLink,
-  Star,
   Trash2,
   Edit3,
   Download,
@@ -94,6 +94,7 @@ export interface IconProps {
   size?: number;
   color?: string;
   strokeWidth?: number;
+  fill?: string;
 }
 
 // Custom Apple Icon component
@@ -186,6 +187,7 @@ export const Icons = {
   Folder: (props: IconProps) => <Folder size={20} color="#6B7280" strokeWidth={2} {...props} />,
   ChevronLeft: (props: IconProps) => <ChevronLeft size={20} color="#6B7280" strokeWidth={2} {...props} />,
   AlertCircle: (props: IconProps) => <AlertCircle size={20} color="#6B7280" strokeWidth={2} {...props} />,
+  Star: (props: IconProps) => <Star size={20} color="#6B7280" strokeWidth={2} fill="transparent" {...props} />,
 };
 
 // Export individual icons for convenience

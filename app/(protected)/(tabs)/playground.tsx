@@ -19,6 +19,12 @@ const demos = [
     description: 'Draggable floating button with expandable menu (AssistiveTouch style)',
     path: 'floatingMenu/ExpandableFloatingButtonDemo',
   },
+  {
+    id: 'floating-review',
+    name: 'Floating Review',
+    description: 'Animated floating review interface with star rating and smooth transitions',
+    path: 'dropableMenu/FloatingReviewDemo',
+  },
 ];
 
 export default function PlaygroundScreen() {
