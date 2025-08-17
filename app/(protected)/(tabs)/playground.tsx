@@ -25,6 +25,12 @@ const demos = [
     description: 'Animated floating review interface with star rating and smooth transitions',
     path: 'dropableMenu/FloatingReviewDemo',
   },
+  {
+    id: 'async-button',
+    name: 'Async Button',
+    description: 'Professional animated buttons with smooth state transitions, dynamic width resizing, and elegant visual feedback',
+    path: 'asyncButton/AsyncButtonDemo',
+  },
 ];
 
 export default function PlaygroundScreen() {

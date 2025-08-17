@@ -86,6 +86,7 @@ import {
   ArrowLeft,
   ArrowUp,
   ArrowDown,
+  CircleX,
 } from 'lucide-react-native';
 import { useIconColors } from '@/hooks/useIconColors';
 

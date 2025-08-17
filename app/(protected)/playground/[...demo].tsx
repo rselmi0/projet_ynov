@@ -10,12 +10,14 @@ import { useIconColors } from '@/hooks/useIconColors';
 import SwipeAnimationDemo from '@/playground/ui/SwipeAnimationDemo';
 import { ExpandableFloatingButtonDemo } from '@/playground/floatingMenu';
 import { FloatingReviewDemo } from '@/playground/dropableMenu';
+import { AsyncButtonDemo } from '@/playground/asyncButton';
 
 // Dynamic import mapping for component demos
 const componentMap: { [key: string]: React.ComponentType } = {
   'ui/SwipeAnimationDemo': SwipeAnimationDemo,
   'floatingMenu/ExpandableFloatingButtonDemo': ExpandableFloatingButtonDemo,
   'dropableMenu/FloatingReviewDemo': FloatingReviewDemo,
+  'asyncButton/AsyncButtonDemo': AsyncButtonDemo,
 };
 
 export default function PlaygroundDemoScreen() {
